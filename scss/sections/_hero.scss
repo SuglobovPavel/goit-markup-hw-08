@@ -54,14 +54,13 @@
    text-transform: uppercase;
    color: var(--third-color-text);
    margin-bottom: 30px;
-   width: 700px;
    max-width: 100%;
+   width: 360px;
    margin-left: auto;
    margin-right: auto;
    @media screen and (min-width: 1200px){
-      & {
-         font-size: 44px;
-      }
+      width: 700px;
+      font-size: 44px;
    }
 }
 .hero__btn {

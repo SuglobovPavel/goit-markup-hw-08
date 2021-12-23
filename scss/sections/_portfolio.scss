@@ -12,8 +12,11 @@
       margin-bottom: 50px;
    }
 }
-.portfolio-nav__item:not(:last-child){
-   margin-right: 8px;
+.portfolio-nav__item {
+   margin-top: 15px;
+   &:not(:last-child){
+      margin-right: 8px;
+   }
 }
 .portfolio-nav__button {
    font-style: inherit;
@@ -24,7 +27,6 @@
    padding: 6px 22px;
    outline: none;
    border: none;
-   margin-top: 15px;
    cursor: pointer;
    border-radius: 4px;
    letter-spacing: 0.03em;
@@ -45,11 +47,17 @@
    line-height: 2;
    letter-spacing: 0.06em;
    color: var(--main-color-text);
+   margin-bottom: 4px;
 }
 .portfolio-card__image {
    display: block;
    width: 100%;
    height: auto;
+   img {
+      display: block;
+      height: auto;
+      width: 100%;
+   }
 }
 .portfolio-card__wrapp {
    position: relative;
@@ -71,7 +79,7 @@
    display: flex;
    align-items: center;
    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
-   transform: translateY(100%);
+   transform: translateY(110%);
 }
 .portfolio-card__container {
    padding: 20px 24px;

@@ -7,13 +7,12 @@
    @media (min-width: 768px){
       display: flex;
       flex-wrap: wrap;
-      justify-content: space-between;
+      justify-content: space-around;
       align-items: baseline;
    }
 }
 .footer__left {
    text-align: center;
-   margin-bottom: 60px;
    @media (min-width: 1200px){
       text-align: left;
    }
@@ -57,7 +56,9 @@
    }
 }
 .footer-socials {
-   margin-bottom: 60px;
+   @media (max-width: 767px){
+      margin-top: 60px;
+   }
    @media (min-width: 1200px){
       margin-left: 70px;
       margin-right: 93px;
@@ -92,6 +93,7 @@
    }
 }
 .subscribe {
+   
    @media (min-width: 768px){
       width: 450px;
       margin-left: auto;
@@ -99,6 +101,9 @@
    }
    @media (min-width: 1200px){
       width: auto;
+   }
+   @media (max-width: 1199px){
+      margin-top: 60px;
    }
 }
 .subscribe__wrapper {
